@@ -1,8 +1,8 @@
 class Modelfit < Formula
   desc "Detect the best local LLM for your machine (offline, zero-dependency)"
   homepage "https://modelfit.io"
-  url "https://registry.npmjs.org/@modelfit/cli/-/modelfit-1.5.1.tgz"
-  sha256 "4d055a35eb9235ef1f19723aa55e7edee9642e7c8ed2825c28766dfd1424e716"
+  url "https://registry.npmjs.org/@modelfit/cli/-/modelfit-1.5.2.tgz"
+  sha256 "f7504860687523bf26c5f314c664fcc53c6ca349a1fab1d62f25aafb125e75eb"
   license "MIT"
 
   depends_on "node"
