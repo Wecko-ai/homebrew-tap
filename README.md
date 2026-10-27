@@ -6,8 +6,12 @@ Homebrew formulae for [modelfit.io](https://modelfit.io) tools.
 
 ```sh
 brew tap modelfit-io/tap
+brew trust modelfit-io/tap   # Homebrew loads third-party taps only once trusted
 brew install modelfit
 ```
+
+Tapped before 2026-10-27? The tap history was rewritten that day: run
+`brew untap --force modelfit-io/tap`, then the three lines above.
 
 Then:
 
